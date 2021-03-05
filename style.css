@@ -1,0 +1,194 @@
+* {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-family: 'Lato', Arial, Helvetica, sans-serif;
+}
+
+body {
+  background-color: #eee;
+}
+
+.page {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.page header {
+  background-color: #eee;
+  position: fixed;
+  top: 0px;
+  left: 0px;
+  right: 0px;
+  margin-bottom: 100px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  padding: 2vh 20vh; 
+}
+
+.page nav ul{
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  gap: 5vh;
+}
+
+.page nav ul li a{
+  color: black;
+  font-weight: 500;
+  text-decoration: none;
+}
+
+.page .container {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  background-color: #eee
+}
+
+.page .container form{
+  margin-top: 20vh;
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.page .container form h3{
+  padding: 3vh;
+  font-size: 5vh;
+}
+
+.page .container form input[type='email'] {
+  padding: 1vh 20vh;
+  border-radius: 3px;
+  margin-bottom: 2vh;
+}
+
+.page .container form input[type='submit'] {
+  font-weight: 800;
+  background-color: darkorange;
+  padding: 1vh 10vh;
+  border-radius: 3px;
+  margin-bottom: 5vh;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+
+.page .container form input[type='submit']:hover {
+  letter-spacing: 1px;
+}
+
+.page .container .benefits {
+  background-color: #eee;
+  display: flex;
+  flex-direction: column;
+  gap: 7vh;
+  padding: 10vh 20vh;
+}
+
+.page .container .benefits .benefit {
+  display: flex;
+  flex-direction: row;
+  gap: 5vh;
+  align-items: center;
+}
+
+.page .container .benefits .benefit .icon {
+  color: darkorange;
+  font-size: 5vh;
+  width: 4vh;
+}
+
+.page .container .benefits .benefit span {
+  font-size: 4vh;
+  font-weight: 600;
+}
+
+.page .container .video {
+  margin: 5vh;
+
+}
+
+.page .container .prices {
+  background-color: #eee;
+  display: flex;
+  flex-direction: row;
+  gap: 10vh;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  padding: 10vh 20vh;
+}
+
+.page .container .prices .instrument {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #eee;
+  border: solid 2px black;
+  padding-bottom: 5vh;
+  font-size: 4vh;
+}
+
+.page .container .prices .instrument h5 {
+  background-color: #ddd;
+  width: 100%;
+  padding: 3vh 7vh;
+}
+
+.page .container .prices .instrument span{
+  font-weight: 600;
+  margin: 5vh auto;
+}
+
+.page .container .prices .instrument input[type='submit']{
+  background-color: darkorange;
+  margin-top: 5vh;
+  padding: 1vh 3vh;
+  border-radius: 3px;
+  cursor: pointer;
+  transition: all 0.3 ease;
+}
+
+.page .container .prices .instrument input[type='submit']:hover {
+  letter-spacing: 1px;
+}
+
+.page .container .footer {
+  background-color: #ddd;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  padding-top: 2vh;
+  padding-bottom: 2vh;
+  padding-right: 2vh;
+  
+}
+
+.page .container .footer a{
+  text-decoration: none;
+  color: black;
+}
+
+.page .container .footer span{
+  margin-top: 1vh;
+  color: #444;
+}
+
+
+
+
